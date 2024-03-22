@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" data-bs-theme="--bs-success">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        
+    <style> 
+    body{
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: hsl(150, 74%, 49%);
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .navbar-custom {
+            background-color: #ff3c00; 
+        }
+        .navbar-brand {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand mx-auto " href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#estudios">Estudios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia Laboral</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#investigacion">Investigación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pasatiempos">Pasatiempos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div data-bs-theme="blue">
+    </div>
+    <div class="container mt-5">
+        <div id="estudios" class="mb-5">
+            <h2>Estudios</h2>
+            <p>FUNDACIÓN UNIVERSITARIA AGRARIA DE COLOMBIA UNIAGRARIA
+                Enero 2015,diciembre 2021
+                Ingeniería Industrial Industrial 
+                </p>
+            <p>POLITECNICO COLOMBO ANDINO POLCOLAN
+                Agosto 2022,Actualmente
+                Técnico profesional en programación de dispositivos móviles
+                </p>
+                <h3>otros estudios</h3>
+            <p>Servicio Nacional de aprendizaje Sena
+                Manejo de herramientas Microsoft office EXCEL 2021 Básico
+                </p>
+            
+        </div>
+        
+
+        <div id="experiencia" class="mb-5">
+            <h2>Experiencia Laboral</h2>
+            <p>PAAK S.A.S, Analista Junior de Inventarios, Diciembre 2022 - Julio 2023.</p>
+        <ul>
+            <li>Colaboración con los directores de departamento para mejorar la eficiencia operativa.</li>
+            <li>Desarrollo de herramientas y metodologías para optimizar el análisis de datos.</li>
+            <li>Participación en auditorías internas y externas para garantizar el cumplimiento normativo.</li>
+            <li>Diseño y documentación de procesos de trabajo y flujos de información.</li>
+        </ul>
+        <p>AUDIODAZ P.A SYSTEM S.A.S., Auxiliar de Operación e Iluminación y Audio, Agosto 2021 - Octubre 2022.</p>
+        <ul>
+            <li>Colaboración en la capacitación y formación de nuevos empleados.</li>
+            <li>Participación en la identificación y solución de problemas operativos.</li>
+            <li>Coordinación y supervisión de personal en línea de producción.</li>
+            <li>Apoyo en la planificación y ejecución de eventos corporativos.</li>
+            <li>Gestión de tareas y plazos.</li>
+        </ul>
+        <p>COMPENSAR S.A.S, Practicante Procesos de TI, Febrero 2021 - Agosto 2021.</p>
+        <ul>
+            <li>Perfeccionar la habilidad para redactar y estructurar documentos que detallen procesos y procedimientos empresariales de manera clara y comprensible para los usuarios.</li>
+            <li>Convertirse en un usuario avanzado en Power BI, siendo capaz de crear tableros interactivos que faciliten el análisis y visualización efectiva de datos para la toma de decisiones.</li>
+        </ul>
+        <style>
+            ul {
+                list-style: none;
+                padding-left: 0;
+            }
+            h2 {
+                font-weight: 600; 
+            }
+        </style>
+        </div>
+
+        <div id="investigacion" class="mb-5">
+            <h2>Investigación</h2>
+            <p>Propuesta de implementación de un sistema de seguridad en el manejo Integral de residuos sólidos EN LA EMPRESA AUDIO DAZ P.A SYSTEM S.A.S </p>
+            <style>
+                ul {
+                    list-style: none;
+                    padding-left: 0;
+                }
+                h2 {
+                    font-weight: 600; 
+                }
+            </style>
+        </div>
+
+
+        <div id="pasatiempos" class="mb-5">
+            <h2>Pasatiempos</h2>
+            <p>Ver futbol </p>
+            <ul>analisis tactico de partidos de futbol</ul>
+        </div>
+
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo:</label>
+                    <input type="email" class="form-control" id="correo" name="correo">
+                </div>
+                <div class="form-group">
+                    <label for="archivos">Archivos:</label>
+                    <input type="file" class="form-control-file" id="archivos" name="archivos">
+                </div>
+                <div class="form-group">
+                    <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" class="form-control" id="fecha-nacimiento" name="fecha-nacimiento">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Número de Teléfono:</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
